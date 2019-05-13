@@ -2287,6 +2287,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4099620231844936, guid: 4ca4f3910f893f542b7107bc0bff3b1c,
     type: 2}
   m_PrefabInternal: {fileID: 881901551}
+--- !u!1001 &937801456
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803852206678162, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a513e7901beafc4a892629b6e665b0c, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1041316337
 Prefab:
   m_ObjectHideFlags: 0
@@ -9971,7 +10013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -71.1, y: -2.5}
+  m_AnchoredPosition: {x: -71.099976, y: -2.5}
   m_SizeDelta: {x: -558, y: -86.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650835412
