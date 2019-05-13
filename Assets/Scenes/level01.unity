@@ -1441,6 +1441,7 @@ GameObject:
   - component: {fileID: 694319620}
   - component: {fileID: 694319619}
   - component: {fileID: 694319618}
+  - component: {fileID: 694319621}
   m_Layer: 8
   m_Name: gordita
   m_TagString: Untagged
@@ -1554,6 +1555,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &694319621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694319615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ec9e2bba36f40489d67a7230816ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &696037106
 Prefab:
   m_ObjectHideFlags: 0
@@ -9316,6 +9328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878890602}
   - component: {fileID: 1878890601}
+  - component: {fileID: 1878890603}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -9349,6 +9362,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878890603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878890600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37185b54c7227a14e9b4628466345e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinParticles: {fileID: 1949265931602812, guid: 1d265f6a34567094c9d5c1cc59041c55,
+    type: 2}
 --- !u!1001 &1942670881
 Prefab:
   m_ObjectHideFlags: 0
