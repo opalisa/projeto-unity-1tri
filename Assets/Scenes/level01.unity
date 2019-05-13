@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9783,6 +9783,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}
   Tape: {fileID: 1179011590}
+  uiComponents:
+    hud:
+      txtCoinCount: {fileID: 1406259193}
+      txtLifeCount: {fileID: 780921204}
+      panelHud: {fileID: 520509639}
 --- !u!4 &1878890602
 Transform:
   m_ObjectHideFlags: 0
