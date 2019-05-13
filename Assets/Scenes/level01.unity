@@ -9074,6 +9074,7 @@ GameObject:
   - component: {fileID: 1878890602}
   - component: {fileID: 1878890601}
   - component: {fileID: 1878890603}
+  - component: {fileID: 1878890604}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -9120,6 +9121,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 1949265931602812, guid: 1d265f6a34567094c9d5c1cc59041c55,
     type: 2}
+--- !u!114 &1878890604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878890600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4457ec3b5e81dec4193054a70de74841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSFX:
+    coinPickup: {fileID: 8300000, guid: 26aa4a7de01614c4181aea2df66741f2, type: 3}
 --- !u!1001 &1942670881
 Prefab:
   m_ObjectHideFlags: 0
