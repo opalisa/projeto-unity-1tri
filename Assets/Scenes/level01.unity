@@ -649,9 +649,9 @@ GameObject:
   m_Component:
   - component: {fileID: 694319617}
   - component: {fileID: 694319616}
-  - component: {fileID: 694319618}
   - component: {fileID: 694319620}
   - component: {fileID: 694319619}
+  - component: {fileID: 694319618}
   m_Layer: 0
   m_Name: gordita
   m_TagString: Untagged
@@ -726,14 +726,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 694319615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c933cfed9e0726448e6b5c5b54747e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 9953443be9ec79e43a2ce81022f83f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
-  LimitTop: 4
-  LimitBottom: -4
-  LimitLeft: -8
-  LimitRight: 8
 --- !u!70 &694319619
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
