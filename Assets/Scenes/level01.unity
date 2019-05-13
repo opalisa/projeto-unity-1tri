@@ -573,7 +573,11 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  m_Layer: 0
+  - component: {fileID: 519420035}
+  - component: {fileID: 519420034}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420030}
+  m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -587,6 +591,18 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!65 &519420030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0011845, y: 8.855615, z: 1}
+  m_Center: {x: 8.859916, y: -0.029534817, z: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -640,6 +656,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &519420033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.072453, y: 0.7042923, z: 1}
+  m_Center: {x: -0.2080822, y: -4.991171, z: 0}
+--- !u!65 &519420034
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1913605, y: 8.755953, z: 1}
+  m_Center: {x: -9.025839, y: -0.10114479, z: 0}
+--- !u!65 &519420035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.935364, y: 0.9771614, z: 1}
+  m_Center: {x: 0.01593399, y: 4.8592167, z: 0}
 --- !u!1 &694319615
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +704,7 @@ GameObject:
   - component: {fileID: 694319620}
   - component: {fileID: 694319619}
   - component: {fileID: 694319618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gordita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +976,7 @@ GameObject:
   - component: {fileID: 1561637653}
   - component: {fileID: 1561637652}
   - component: {fileID: 1561637651}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Platforms-tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
